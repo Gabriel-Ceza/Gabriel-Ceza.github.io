@@ -26,8 +26,7 @@ h3 {
 
 img {
     width: 200px;
-    margin: auto;
-    display: block;
+    margin: auto;   
     border-radius: 5%;    
     border: 1px solid #8257E5;    
 }
@@ -36,8 +35,7 @@ p{
     text-align: center;
     border-top: 1px solid #8257E5;
     border-bottom: 1px solid #8257E5;
-    padding: 15px;
-    width: initial;
+    padding: 15px;       
     background-color: #29292E;
     
 }
