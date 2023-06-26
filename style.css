@@ -1,60 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: rgb(18, 18, 20);
-    font-size: 16px;
+    padding: 5%;
+    background-color: #121214;
     color: #E1E1E6;
-    font-family: Gooper,sans-serif;
 }
 
-h1{
-    font-size: 2.5em;
-    color: #8257E5;
+.img-container {
+    height: 200px; 
+    position: relative; 
+    padding: 20px;  
+}
+
+#minha-foto {
+    position: absolute;
+    float: left;
+    height: 190px;  
+    padding: 5px; 
+    background-color: #04D361;
+    left: 15%;
+}
+
+.descricao {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 32%;
+    top: 25%;
+    padding: 10px;
+    border-top: 2px solid #8257E5;
+    border-bottom: 2px solid #8257E5;
+}
+
+.meu-nome {
     text-align: center;
-    font-family: fantasy;
-    background-color: #29292E;
-    border-top: 1px solid #8257E5;
-    border-bottom: 1px solid #8257E5;
-}
-
-h3 {
-    text-align: center;
-    font-size: 1.5em;
-    background-color: #29292E;
-    color: #8257E5;
-    border-top: 1px solid #8257E5;
-    border-bottom: 1px solid #8257E5;
-}
-
-img {
-    width: 200px;
-    margin: auto;   
-    border-radius: 5%;    
-    border: 1px solid #8257E5;    
-}
-
-p{
-    text-align: center;
-    border-top: 1px solid #8257E5;
-    border-bottom: 1px solid #8257E5;
-    padding: 15px;       
-    background-color: #29292E;
-    
-}
-
-ul {
-    text-align: center;
-    list-style: none;  
-    font-weight: 600;  
-    background-color: #29292E;
-    border-top: 1px solid #8257E5;
-    border-bottom: 1px solid #8257E5;
+    border-top: 2px solid #8257E5;
+    border-bottom: 2px solid #8257E5;
 }
 
 strong {
     color: #8257E5;
 }
 
-a {
-    color: #04D361;
-    font-weight: 600;    
+.lista-habilidades {
+    border-bottom: 2px solid #8257E5;    
 }
+
+ul li {
+    text-align: center;
+    list-style: none;
+    width: 280px;     
+}
+
+ul li:nth-child(odd) {
+    background-color: #8257E5;
+    font-weight: 700;
+}
+
+.habilidades-titulo {
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid #8257E5;
+    border-bottom: 2px solid #8257E5;    
+}
+
+.habilidades-container {
+    display: flex;     
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.tags-footer {
+   display: block;  
+   border-top: 2px solid #8257E5; 
+   padding: 20px; 
+   margin-top: 20px;
+   
+}
+
+
+
+
+
 
